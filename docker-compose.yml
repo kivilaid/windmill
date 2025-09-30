@@ -37,7 +37,6 @@ services:
     restart: unless-stopped
     expose:
       - 8000
-      - 2525
     environment:
       - DATABASE_URL=${DATABASE_URL}
       - MODE=server
